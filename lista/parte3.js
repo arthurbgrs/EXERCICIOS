@@ -17,30 +17,31 @@ saudar()
 
 
 // EXERCICIO 3
-var numero = 20
+
 function dobro(numeros){
-    var dobra = numero * 2
-    console.log(dobra);
+    return numeros * 2
+
     
 }
-dobro()
+console.log(dobro(30));
 
 
-// EXERCICIO 4
-var numero1 = 60
-var numero2 = 30
+
+// EXERCICIO 4   
+
 function soma(n1, n2){
-    var soma = numero1 + numero2
-    console.log(soma);
+   return n1 + n2
+    
     
 }
-soma()
+console.log( soma(5,8));
+ 
 
 
 // EXERCICIO 5 
 var numeros = [7, 8 ,3,4]
 function media(numerox){
-    var mediana = (7 + 8 + 3 + 4) / 4
+    var mediana = (numeros[0] + numeros[1] + numeros[2] + numeros[3]) / 4
     console.log(mediana);
     
 }

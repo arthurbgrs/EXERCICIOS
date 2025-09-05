@@ -26,10 +26,12 @@ for(var index in cores){
 
 // EXERCICIO 7
 var numeros = [2, 4 , 6 , 8, 10]
-
-function calcular(numeros){
-    var soma = 2 + 4 + 6 + 8 + 10
-    console.log(soma);
-    
+var soma = 0
+for(var i = 0; i < numeros.length; i++){
+ soma = soma + numeros[i]
+//  soma += numeros[i]
+ console.log(soma)
 }
+    
+
 calcular()

@@ -7,7 +7,7 @@ var pessoa = {
         console.log("Olá, meu nome é", pessoa.nome, "e tenho" ,pessoa.idade, "anos.");
         
     }   
-}
+} 
 
 // EXERCICIO 2
 console.log(pessoa.nome);
@@ -28,9 +28,11 @@ pessoa.apresentar()
 
 
 // EXERCICIO 6
-var alunos = ["Arthur", "Armando", "João"]
-var notas = [10,8,9]
-console.log("o aluno", alunos[0], "tirou", notas[0]);
-console.log("o aluno", alunos[1], "tirou", notas[1]);
-console.log("o aluno", alunos[2], "tirou", notas[2]);
+var turma = [{nome : "arthur", nota : 10 }, {nome : "Armando", nota : 9}, {nome : "Armanda", nota : 8}]
+for(var i = 0; i < turma.length; i++){
+    console.log("o aluno" ,turma[i].nome, "tirou" ,turma[i].nota)
+}
+  
+
+
 
